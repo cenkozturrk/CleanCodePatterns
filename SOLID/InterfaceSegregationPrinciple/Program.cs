@@ -1,17 +1,17 @@
-﻿using SOLID.InterfaceSegregationPrinciple;
+﻿//using SOLID.InterfaceSegregationPrinciple;
 
-Manager manager = new Manager();
-Intern intern = new Intern();
-Analyst analyst = new Analyst();
+//Manager manager = new Manager();
+//Intern intern = new Intern();
+//Analyst analyst = new Analyst();
 
-Console.WriteLine("Manager:");
-manager.Work();
-manager.CreateReport();
-manager.LeadTeam();
+//Console.WriteLine("Manager:");
+//manager.Work();
+//manager.CreateReport();
+//manager.LeadTeam();
 
-Console.WriteLine("\nAnalyst:");
-analyst.Work();
-analyst.CreateReport();
+//Console.WriteLine("\nAnalyst:");
+//analyst.Work();
+//analyst.CreateReport();
 
-Console.WriteLine("\nIntern:");
-intern.Work();
+//Console.WriteLine("\nIntern:");
+//intern.Work();
