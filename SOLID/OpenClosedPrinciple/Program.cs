@@ -1,20 +1,20 @@
-﻿// Generate a Sales Report
-using SOLID.OpenClosedPrinciple;
+﻿//// Generate a Sales Report
+//using SOLID.OpenClosedPrinciple;
 
-Report salesReport = new SalesReport();
-ReportService salesReportService = new ReportService(salesReport);
-salesReportService.GenerateReport();
+//Report salesReport = new SalesReport();
+//ReportService salesReportService = new ReportService(salesReport);
+//salesReportService.GenerateReport();
 
-Console.WriteLine();
+//Console.WriteLine();
 
-// Generate an Employee Report
-Report employeeReport = new EmployeeReport();
-ReportService employeeReportService = new ReportService(employeeReport);
-employeeReportService.GenerateReport();
+//// Generate an Employee Report
+//Report employeeReport = new EmployeeReport();
+//ReportService employeeReportService = new ReportService(employeeReport);
+//employeeReportService.GenerateReport();
 
-Console.WriteLine();
+//Console.WriteLine();
 
-// Generate a Customer Report
-Report customerReport = new CustomerReport();
-ReportService customerReportService = new ReportService(customerReport);
-customerReportService.GenerateReport();
+//// Generate a Customer Report
+//Report customerReport = new CustomerReport();
+//ReportService customerReportService = new ReportService(customerReport);
+//customerReportService.GenerateReport();

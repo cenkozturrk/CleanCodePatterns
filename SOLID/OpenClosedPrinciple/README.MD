@@ -8,9 +8,7 @@ This project demonstrates the **Open/Closed Principle** (OCP) using an **abstrac
 - **Closed for Modification**: Existing classes and logic do not need to be changed when adding new reports.
 - **Open for Extension**: The system is easily extended by adding new implementations of the `Report` class.
 
-### Example Reports:
-- **Sales Report**
-- **Employee Report**
-- **Customer Report**
+---
+
 
 This demonstrates how the **Open/Closed Principle** can be applied using an abstract class to keep the system flexible and maintainable as it grows.
