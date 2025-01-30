@@ -1,15 +1,15 @@
-﻿using OOP.Polymorphism;
+﻿//using OOP.Polymorphism;
 
-List<Shape> shapes = new List<Shape>
-        {
-            new Circle(),
-            new Rectangle(),
-            new Triangle()
-        };
+//List<Shape> shapes = new List<Shape>
+//        {
+//            new Circle(),
+//            new Rectangle(),
+//            new Triangle()
+//        };
 
-Console.WriteLine("Drawing shapes dynamically:");
+//Console.WriteLine("Drawing shapes dynamically:");
 
-foreach (Shape shape in shapes)
-{
-    shape.Draw();
-}
+//foreach (Shape shape in shapes)
+//{
+//    shape.Draw();
+//}
