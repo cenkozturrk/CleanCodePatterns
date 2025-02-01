@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EagerLazyLoading", "EagerLazyLoading\EagerLazyLoading.csproj", "{98B92BF4-2BA0-46B8-8711-61767D7F35E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork", "UnitOfWork\UnitOfWork.csproj", "{27A25107-F71A-4E69-877E-B66AAC6DA868}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{98B92BF4-2BA0-46B8-8711-61767D7F35E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98B92BF4-2BA0-46B8-8711-61767D7F35E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98B92BF4-2BA0-46B8-8711-61767D7F35E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A25107-F71A-4E69-877E-B66AAC6DA868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A25107-F71A-4E69-877E-B66AAC6DA868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A25107-F71A-4E69-877E-B66AAC6DA868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A25107-F71A-4E69-877E-B66AAC6DA868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

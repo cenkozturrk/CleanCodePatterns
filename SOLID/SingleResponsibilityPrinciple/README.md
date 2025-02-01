@@ -1,12 +1,17 @@
-# SingleResponsibilityPrinciple Folder
+# UnitOfWork Pattern 
 
 ## Purpose
-This folder contains the implementation of classes that follow the **Single Responsibility Principle (SRP)**, one of the key SOLID principles. Each class is responsible for only one task, making the code cleaner and easier to maintain.
+This project demonstrates the **Unit of Work** pattern in **.NET Core**, ensuring better data management by handling multiple repository operations within a single transaction.
 
-### Classes:
-- **EmailValidator**: Validates email addresses.
-- **PhoneNumberValidator**: Validates phone numbers.
-- **PasswordValidator**: Validates passwords.
+## Features
+- Implements the **Unit of Work** design pattern.
+- Uses **Repository Pattern** for database interactions.
+- Includes **Entity Framework Core (EF Core)** with an **In-Memory Database** for testing.
+- Provides a **testable and structured** approach to database operations.
 
-## How SRP is Applied
-Each class here is responsible for only one validation task, following the principle that a class should have only one reason to change. For example, if we needed to change the email validation logic, we would only modify the `EmailValidator` class.
+## How the Unit of Work Pattern is Applied
+- **UnitOfWork.cs**: Manages database transactions and multiple repositories.
+- **Repository.cs**: A generic repository that interacts with the database.
+- **Service Layer**: Calls repositories through the Unit of Work to perform actions.
+
+
