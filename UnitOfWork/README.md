@@ -1,7 +1,7 @@
 # UnitOfWork Pattern 
 
 ## Purpose
-This project demonstrates the **Unit of Work** pattern in **.NET Core**, ensuring better data management by handling multiple repository operations within a single transaction.
+This layer demonstrates the **Unit of Work** pattern in **.NET Core**, ensuring better data management by handling multiple repository operations within a single transaction.
 
 ## Features
 - Implements the **Unit of Work** design pattern.
