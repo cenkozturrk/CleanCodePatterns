@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TightAndLooseCoupling", "Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPatternDesign\SingletonPattern.csproj", "{19317351-9ACD-4DF2-AC05-E9E9CF68BC5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{F0B7EC12-41B4-4E0E-BEC1-A4D78B40BA03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{19317351-9ACD-4DF2-AC05-E9E9CF68BC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19317351-9ACD-4DF2-AC05-E9E9CF68BC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19317351-9ACD-4DF2-AC05-E9E9CF68BC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B7EC12-41B4-4E0E-BEC1-A4D78B40BA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B7EC12-41B4-4E0E-BEC1-A4D78B40BA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B7EC12-41B4-4E0E-BEC1-A4D78B40BA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B7EC12-41B4-4E0E-BEC1-A4D78B40BA03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
