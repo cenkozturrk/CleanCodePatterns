@@ -9,15 +9,12 @@ namespace AbstractFactoryPattern
 {
     public static class UIFactoryProvider
     {
-        public static IUIFactory GetFactory(string theme)
+        public static IUIFactory GetFactory(string theme) => theme.ToLower() switch
         {
-            return theme.ToLower() switch
-            {
-                "light" => new LightThemeFactory(),
-                "dark" => new DarkThemeFactory(),
-                _ => throw new ArgumentException("Invalid theme selected")
-            };
-        }
+            "light" => new LightThemeFactory(),
+            "dark" => new DarkThemeFactory(),
+            _ => throw new ArgumentException("Invalid theme selected")
+        };
     }
 
 }
