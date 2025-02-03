@@ -1,6 +1,0 @@
-@CleanCodePatterns_HostAddress = http://localhost:5049
-
-GET {{CleanCodePatterns_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
