@@ -5,7 +5,7 @@ The Prototype Pattern is a creational design pattern that allows you to copy exi
 
 
 ## Key Features
-- The program prompts them to choose a shipping method: standard, expedited, or international.
-- Based on the input, the program uses the ShippingFactory to create the correct shipping method object.
-- The chosen shipping method's ShipPackage method is called, and a message is displayed with the estimated delivery time.
+- Efficient Object Creation – Avoids costly initialization.
+- Encapsulates Cloning Logic – The object itself defines how it should be copied.
+- Supports Deep and Shallow Copies – Allows flexibility depending on needs.
 
