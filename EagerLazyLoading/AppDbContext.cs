@@ -20,7 +20,7 @@ namespace EagerLazyLoading
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseLazyLoadingProxies(); // Enable Lazy Loading. Be careful when using!!!!!
+            optionsBuilder.UseLazyLoadingProxies(); // Enable Lazy Loading. Be careful when using this!!!!!
             optionsBuilder.UseSqlServer("YourConnectionStringHere"); // When you decide to try the topic that you need to connect with DB!!.
         }
     }
